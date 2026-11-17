@@ -1,0 +1,30 @@
+/* Mothlight page shell: a night-dark page with the game canvas centred in it. */
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #050912;
+}
+
+#stage {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#game {
+  display: block;
+  background: #070d1c;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+#needs-script {
+  color: #fff0cf;
+  font: 600 18px system-ui, sans-serif;
+  text-align: center;
+}
